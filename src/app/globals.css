@@ -16,12 +16,7 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.text-stroke-3 {
+  text-shadow: -2px -2px 0 #e6007e, 2px -2px 0 #e6007e, -2px 2px 0 #e6007e,
+    2px 2px 0 #e6007e;
 }
